@@ -56,12 +56,17 @@ select {
     border: none;
     padding: 7px;
 }
-@media screen and (max-width:580px){
+@media screen and (max-width:500px){
     h1{
         font-size: large;
     }
     h4{
         font-size:small;
+    }
+    .calculadora input{
+        padding: 1px;
+        font-size: xx-large;
+        max-width: 50px;
     }
 }
 @media screen and (min-width:785px){
@@ -75,8 +80,7 @@ select {
     }
     .calculadora input{
         padding: 12px;
-        font-size: xx-large;
-
+        font-size: xx-large
     }
     
     .calculadora button{

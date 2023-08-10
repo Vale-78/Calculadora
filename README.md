@@ -2,6 +2,7 @@
 
 Este proyecto integra HTML, CSS Y JavaScript. 
 Aquí podrás resolver operaciones básicas tales como: 
+
    *SUMA 
    *RESTA
    *MULTIPLICACIÓN
@@ -17,7 +18,7 @@ Sino, accede directamente desde aquí:
 
 ![](./assest/MiCalcu.png)
 
-## contriciones
+## contribuciones
 
 Cualquier tipo de aportes son bienvenidos.
 

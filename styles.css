@@ -1,0 +1,88 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+     background-image: url("./assest/descarga.jpeg");
+}
+h1, h4, p, label {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+h1{
+    font-size: xx-large;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    
+}
+.container .infoContainer{
+   border-radius: 10px;
+   border: solid blue;
+   width: 40%;
+   margin: 35px auto 35px auto;
+   background-color: rgb(215, 251, 239);
+}
+.container .calcuContainer{
+    border-radius: 10px;
+    border: solid blue;
+    margin: 10px;
+    background-color: rgb(215, 251, 239);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+select {
+    background-color: rgb(84, 84, 240);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border: solid orange;
+    padding: 4px;
+}
+.calculadora input{
+    border-radius: 10px;
+    border: solid orange;
+    padding: 7px;
+}
+
+.calculadora button{
+    background-color: rgb(84, 84, 240);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 7px;
+}
+@media screen and (max-width:580px){
+    h1{
+        font-size: large;
+    }
+    h4{
+        font-size:small;
+    }
+}
+@media screen and (min-width:785px){
+    .container .calcuContainer{
+        width: 80%;
+        margin: auto;
+    }
+    select {
+        font-size: xx-large;
+        padding: 7px;
+    }
+    .calculadora input{
+        padding: 12px;
+        font-size: xx-large;
+
+    }
+    
+    .calculadora button{
+        font-size: xx-large;
+        padding: 12px;
+    }
+    h4, p, label {
+        font-size: large;
+    
+    }
+}

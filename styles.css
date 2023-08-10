@@ -56,17 +56,12 @@ select {
     border: none;
     padding: 7px;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:580px){
     h1{
         font-size: large;
     }
     h4{
         font-size:small;
-    }
-    .calculadora input{
-        padding: 1px;
-        font-size: xx-large;
-        max-width: 50px;
     }
 }
 @media screen and (min-width:785px){
@@ -96,3 +91,13 @@ select {
     
     }
 }
+@media screen and (max-width:350px){
+    .calculadora input{
+        padding: 3px;
+        max-width: 100px;
+    }
+    select {
+        padding: 4px;
+        max-width: 100px;
+    }
+} 

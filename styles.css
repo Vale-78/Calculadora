@@ -42,11 +42,13 @@ select {
     border-radius: 10px;
     border: solid orange;
     padding: 4px;
+    margin-top: 20px;
 }
 .calculadora input{
     border-radius: 10px;
     border: solid orange;
     padding: 7px;
+    margin-top: 20px;
 }
 
 .calculadora button{
@@ -55,10 +57,11 @@ select {
     color: white;
     border: none;
     padding: 7px;
+    margin-top: 20px;
 }
 @media screen and (max-width:580px){
     h1{
-        font-size: large;
+        font-size: x-large;
     }
     h4{
         font-size:small;
@@ -71,7 +74,7 @@ select {
     }
     select {
         font-size: xx-large;
-        padding: 7px;
+        padding:  20px 7px 20px 7px;
     }
     .calculadora input{
         padding: 12px;
@@ -80,15 +83,14 @@ select {
     
     .calculadora button{
         font-size: xx-large;
-        padding: 12px;
+        padding: 20px 12px 20px 12px;
     }
     h4, label {
-        font-size: large;
+        font-size: x-large;
     
     }
     p {
-        font-size: xx-large;
-    
+        font-size: x-large;
     }
 }
 @media screen and (max-width:300px){
@@ -99,6 +101,10 @@ select {
     select {
         padding: 4px;
         max-width: 100px;
+    }
+    .container .calcuContainer{
+        width: 90%;
+        margin: auto;
     }
 } 
 @media screen and (max-width:200px){

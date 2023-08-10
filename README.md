@@ -2,24 +2,22 @@
 
 Este proyecto integra HTML, CSS Y JavaScript. 
 Aquí podrás resolver operaciones básicas tales como: 
-   .SUMA 
-   .RESTA
-   .MULTIPLICACIÓN
-   .DIVISIÓN
+   *SUMA 
+   *RESTA
+   *MULTIPLICACIÓN
+   *DIVISIÓN
 
-##Cómo correr la aplicación _"Calculadora"_?
+## Cómo correr la aplicación _"Calculadora"_?
 
 Para ejecutar esta aplicación, simplemente necesita clonar el proyecto y ejecutar el archivo html.
-Sino, accede directamente desde el siguiente link:
-               https://vale-78.github.io/Calculadora/
+Sino, accede directamente desde aquí:
+    [GitHub Pages](https://vale-78.github.io/Calculadora/).
 
-This site was built using [GitHub Pages](https://vale-78.github.io/Calculadora/).
-
-##Impresión de pantalla
+## Impresión de pantalla
 
 ![](./assest/MiCalcu.png)
 
-##contriciones
+## contriciones
 
 Cualquier tipo de aportes son bienvenidos.
 

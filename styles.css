@@ -2,7 +2,10 @@ body{
     box-sizing: border-box;
     text-align: center;
     align-items: center;
-     background-image: url("./assest/descarga.jpeg");
+    background-image: url("./assest/descarga.jpeg");
+    height: 80%;
+    padding: 0%;
+    margin: 0%;
 }
 h1, h4, p, label {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -59,14 +62,7 @@ select {
     padding: 7px;
     margin-top: 20px;
 }
-@media screen and (max-width:580px){
-    h1{
-        font-size: x-large;
-    }
-    h4{
-        font-size:small;
-    }
-}
+
 @media screen and (min-width:785px){
     .container .calcuContainer{
         width: 80%;
@@ -93,7 +89,15 @@ select {
         font-size: x-large;
     }
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:580px){
+    h1{
+        font-size: x-large;
+    }
+    h4{
+        font-size:small;
+    }
+}
+@media screen and (max-width:320px){
     .calculadora input{
         padding: 3px;
         max-width: 100px;
@@ -114,11 +118,11 @@ select {
 @media screen and (max-width:200px){
     .calculadora input{
         padding: 3px;
-        max-width: 80px;
+        max-width: 70px;
     }
     select {
         padding: 4px;
-        max-width: 80px;
+        max-width: 70px;
     }
     h1 {
         font-size: large;

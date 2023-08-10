@@ -120,4 +120,15 @@ select {
         padding: 4px;
         max-width: 80px;
     }
+    h1 {
+        font-size: large;
+    }
+    .container .calcuContainer{
+        width: 95%;
+        margin: auto;
+    }
+    .container .infoContainer{
+        width: 80%;
+        margin: 35px auto 35px auto;
+     }
 } 

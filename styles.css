@@ -7,7 +7,9 @@ body{
 h1, h4, p, label {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-
+}
+p {
+font-size: larger;
 }
 h1{
     font-size: xx-large;
@@ -81,8 +83,12 @@ select {
         font-size: xx-large;
         padding: 12px;
     }
-    h4, p, label {
+    h4, label {
         font-size: large;
+    
+    }
+    p {
+        font-size: xx-large;
     
     }
 }

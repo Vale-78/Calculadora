@@ -13,7 +13,9 @@ function calcular(){
     if((isNaN(valorNumerico1)) || (isNaN(valorNumerico2))) {
         //Podría haber usado imput type="number" y todo solucionado pero opté por usar validación.
         alert ('Uno o ambos valores ingresados no son numéricos');
-    } else {
+    } else if((n1 === '') || (n2 ==='')){
+        alert ('Debes ingresar un valor en ambos campos');
+    } else{
         const select = document.getElementById("operacion");
         const options=document.getElementsByTagName("option");
             if(select.value == "suma"){
@@ -27,7 +29,11 @@ function calcular(){
                 document.getElementById("resultado").innerHTML = result;
             }else if(select.value == "division"){
                 let result = division(valorNumerico1,valorNumerico2);
+                if(valorNumerico2 === 0){
+                    document.getElementById("resultado").innerHTML = "La operación no es válida";
+                } else{
                 document.getElementById("resultado").innerHTML = result;
+                }
             }               
     }
     function suma (a, b){

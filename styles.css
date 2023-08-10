@@ -91,7 +91,7 @@ select {
     
     }
 }
-@media screen and (max-width:350px){
+@media screen and (max-width:300px){
     .calculadora input{
         padding: 3px;
         max-width: 100px;
@@ -99,5 +99,15 @@ select {
     select {
         padding: 4px;
         max-width: 100px;
+    }
+} 
+@media screen and (max-width:200px){
+    .calculadora input{
+        padding: 3px;
+        max-width: 80px;
+    }
+    select {
+        padding: 4px;
+        max-width: 80px;
     }
 } 

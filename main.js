@@ -49,4 +49,7 @@ function calcular(){
         return a / b;
     }
 }
+function borrar(){
+    document.getElementById("resultado").innerHTML = '';
+}
  
